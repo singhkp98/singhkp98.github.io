@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Karan Preet Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Conoscenze</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Background</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Progetti</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Singh <strong>Karan Preet</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">
+                Studente di Informatica <br>
+                Presso <b>Università di Parma</b><br>
+                • Software Developer
+            </p>
+            <img src="img/pic-portfolio.jpg" alt="professional photo" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+
+            <h2 class="section__title section__title--services"> Conoscenze </h2>
+
+            <div class="service-text">
+                <p> Nell'arco della mia carriera universitaria ho avuto modo di apprendere conoscenze in vari ambiti dell'informatica. 
+                    Sotto sono riportati alcuni degli esami sostenuti e le relative competenze che mi hanno permesso di acquisire. 
+                </p>
+            </div>
+
+            <div class="services">
+
+                <div class="service">
+                    <h3>Metodologie Di Programmazione</h3>
+                    <ul>
+                        <li style="text-align: left;">Programmazione orientata agli oggetti</li>
+                        <li style="text-align: left;">Caratteristiche avanzate del linguaggio C++</li>
+                        <li style="text-align: left;">Sviluppo Software riutilizzabile e mantenilbile</li>
+                    </ul>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Algoritmi e Strutture Dati</h3>
+                    <ul>
+                        <li style="text-align: left;">Sviluppo di principali strutture dati</li>
+                        <li style="text-align: left;">Sviluppo di algoritmi relativi alle strutture dati</li>
+                        <li style="text-align: left;">Studio della complessità computazionale</li>
+                        <li style="text-align: left;">Ricerca di soluzioni efficienti</li>
+                    </ul>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Amministrazione IT & Cloud</h3>
+                    <ul>
+                        <li style="text-align: left;">Utilizzo del file system Unix</li>
+                        <li style="text-align: left;">Bash Sripting</li>
+                        <li style="text-align: left;">Gestione rete (firewall)</li>
+                        <li style="text-align: left;">Gestione Web/Apache</li>
+                        <li style="text-align: left;">Nozioni base Docker</li>
+                    </ul>
+                </div> <!-- / service -->
+
+            </div> <!-- / services-Main -->
+
+            <!--MY SERVICE ROW 2-->
+            <div class="services">
+
+                <div class="service">
+                    <h3>Basi Di Dati</h3>
+                    <ul>
+                        <li style="text-align: left;">Progettazione Basi di Dati Relazionali</li>
+                        <li style="text-align: left;">Linguaggio SQL</li>
+                        <li style="text-align: left;"> Gestione di Database</li>
+                        <li style="text-align: left;">Integrazione di SQL nei linugaggi di programmazione</li>
+                    </ul>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Reti Di Calcolatori</h3>
+                    <ul>
+                        <li style="text-align: left;">Architettura della rete Internet</li>
+                        <li style="text-align: left;">Protocolli di comunicazione di rete</li>
+                        <li style="text-align: left;">Sviluppo protocolli di comunicazione di rete</li>
+                        <li style="text-align: left;">Sicurezza delle Reti</li>
+                    </ul>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Ingegneria Del Software</h3>
+                    <ul>
+                        <li style="text-align: left;">Approccio alla programmazione in JAVA</li>
+                        <li style="text-align: left;">Realizzazione applicazioni Web</li>
+                        <li style="text-align: left;">Design Patterns</li>
+                        <li style="text-align: left;">Eclipse IDE</li>
+                    </ul>
+                </div> <!-- / service -->
+
+            </div> <!-- / services-Main -->
+            
+            <a href="#work" class="btn">Progetti</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Background</h2>
+           <p class="section__subtitle section__subtitle--about">Istruzione ed esperienze</p>
+           
+           <div class="about-me__body">
+               <p>
+                   Ho conseguito il mio diploma di <b>Istruzione Tecnica indirizzo INFORMATICA e TELECOMUNICAZIONI</b> nell'anno 2017 presso 
+                   Istituto <i>"I.I.S G. Romani"</i> Casalmaggiore, con una valutazione complessiva di 84/100. <br>
+
+                   <b>Progetto realizzato per l'esame di maturità:</b> <br>
+                   Applicativo Web per ordinare cibo online da una catena di Fast-food. <br>
+
+                   <b>Tecnologie utilizzate:</b> <br>
+                   PHP, HTML, CSS, BOOTSTRAP, MYSQL.  
+               </p>
+               <p>
+                   Nell'anno 2016-2017 ho svolto due mesi di alternanza scuola lavoro presso <i>"Biblioteca Comunale di Casalmaggiore"</i>, 
+                   questa esperienza mi ha permesso di avere un breve approccio al mondo lavorativo e alle responsabilità associate ad esso. <br>
+
+                   In particolare mi sono occupato dell'interazione con i clienti per effettuare prenotazioni e fornire loro assistenza nell'utilizzo di piattaforme digitali.
+                   Altre attività riguardavano l'inserimento dei dati riguardanti le prenotazioni all'interno del database Bibliotecario. 
+               </p>
+           </div>
+           
+           <img src="img/monitor-photo.jpg" alt="professional photo 2" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Progetti</h2>
+            <p class="section__subtitle section__subtitle--work">Selezione di alcuni progetti realizzati</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/JavascriptProject.png" alt="" class="portfolio__img" style="height: 251px; width: 426px;">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item-2.html" class="portfolio__item">
+                    <img src="img/PythonProject.jpg" alt="" class="portfolio__img" style="height: 251px; width: auto;">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item-3.html" class="portfolio__item">
+                    <img src="img/C++Project.jpg" alt="" class="portfolio__img" style="height: 251px; width: auto;">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:kps.preet@yahoo.it" class="footer__link">kps.preet@yahoo.it</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/skpreet98">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/singhkp98">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

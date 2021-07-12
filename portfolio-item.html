@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Karan Preet Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">Conoscenze</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">Background</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">Progetti</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                The Blackjack Game<strong>Javascript</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Versione semplificata<br> del gioco del blackjack</p>
+            <img src="img/blackjack.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <h3 style="text-align: center; position: relative;" >Descrizione del progetto</h3>
+            <p>
+                Il progetto simula una versione semplificata del gioco del blackjack.
+                Il turno iniziale spetta all'utente che premendo il tasto <b>Hit</b> dà il via al gioco.
+                Al termine della propria giocata l'utente preme il tasto <b>Stand</b> cedendo così il turno al computer.
+                Una volta che il computer termina di giocare si confrontano i due punteggi e si seleziona il vincitore.
+                Infine la tabella contenente il numero di vittorie-sconfitte-pareggi viene aggiornata. 
+            </p>
+            <img src="img/gameplay.png" alt="gameplay">
+            <p>
+                Il funzionamento del programma è realizzato in <b>Javascript</b> mentre l'interfaccia grafica dedicata
+                all'interazione con l'utente è stata realizzata in <b>HTML</b>,<b>CSS</b> e <b>Bootstrap</b>. 
+            </p>
+            <p style="text-align: center;">
+                <a href="https://github.com/singhkp98/blackjack-javascript" class="btn">Vai al codice</a>
+            </p>
+            
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:kps.preet@yahoo.it" class="footer__link">kps.preet@yahoo.it</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/singhkp98">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
