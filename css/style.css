@@ -249,6 +249,8 @@ header {
 .intro__img {
     box-shadow: var(--bs);
     border-radius: 50%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .section__subtitle--intro {
